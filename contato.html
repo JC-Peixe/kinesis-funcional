@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img src="kinesislogopqn.png" alt="Logo do Kinesis Funcional"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Serviços</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+
+    <main>
+        <form action="">
+            <label for="nomesobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Nome e Sobrenome">
+
+            <label for="email">Email</label>
+            <input type="email" id="email"  class="input-padrao" required placeholder="seuemail@digite.com">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX)XXXXX-XXXX">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="" id="mensagem" cols="70" rows="10"class="input-padrao" required></textarea>
+
+            <fieldset>
+                <legend>Como prefere o nosso contato?</legend>
+
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                
+
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+             
+
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+                
+            </fieldset>    
+            <fieldset>
+                <select name="" id="">
+                    <legend>Qual horário prefere ser atendido?</legend>
+                    <option value="">Manhã</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
+                </select>
+            </fieldset>
+            <label for="checkbox"><input type="checkbox" class="checkbox" checked> Gostaria de receber nossas novidades por email?</label>
+
+            <input type="submit" value="Enviar Formulário" class="enviar">
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horário</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Segundas</td>
+                    <td>17:30 às 20:30</td>
+                </tr>
+                <tr>
+                    <td>Terças</td>
+                    <td>17:30 às 20:30</td>
+                </tr>
+                <tr>
+                    <td>Quintas</td>
+                    <td>17:30 às 20:30</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    
+    <footer>
+        <img src="personalBranco.png" alt="Logo do Peixe Personal">
+        <p class="copyright">&copy;Copyright Peixe Personal - 2023</p>
+    </footer>
+</body>
+</html>
