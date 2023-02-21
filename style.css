@@ -89,6 +89,7 @@ footer{
     background: url(logof.png);
     padding: 40px 0;
 }
+
 .copyright{
     color:#ffffff;
     font-size: 13px;
@@ -96,6 +97,7 @@ footer{
 }
 form {
     margin: 40px 0;
+    
 }
 form label, form legend{
     display: block;
@@ -175,7 +177,7 @@ td,th{
 }
 .mapa{
     padding: 3em 0;
-    background: linear-gradient(#fefefe,#888888);
+    background: #fefefe;
 }
 .mapa-conteudo{
     width: 940px;
@@ -188,7 +190,7 @@ td,th{
 }
 .beneficios{
     padding: 3em 0;
-    background: #888888;
+    background: #fefefe;
 }
 .conteudo-beneficios{
     width: 640px;
@@ -224,15 +226,18 @@ td,th{
     margin: 2em auto;
 }
 
+
 @media screen and (max-width: 480px) {
     .caixa,.principal, .conteudo-beneficios,.mapa-conteudo,.video{
         width: auto;
     }
-    
+    .titulo-principal{
+        font-size: 2em;
+        text-shadow: none;
+    }
     h1{
         text-align: center;
     }
-
     nav{
         position: static;
         display: table;
